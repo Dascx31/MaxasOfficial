@@ -1,0 +1,53 @@
+html, body{
+    margin: 0;
+    background-color:rgb(220, 220, 220)
+    font-family: 'segoe UI', Tahoma, Geneva, verdana, sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    box-shadow: 0 0 10px rgba(0, 0, 0,75;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: 30%;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(40, 40, 40);
+    margin: 0;
+}
+
+nav>{
+    width: 70%;
+}
+nav a {
+    margin: 0px;
+    padding: 10px 5px;
+    text-decoration: none;
+    color:rgb(40, 40, 40)
+}
+main {
+    height: calc(100% - 51px);
+    overflow-y: scroll;
+}
+
+.lien {
+    color: white;
+    background: linear-gradient(red, blue);
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.lien:hover {
+    background: rgb(245, 245 green, blue 245);
+    color: rgb(40, 40, 40))
+}
